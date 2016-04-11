@@ -52,83 +52,84 @@ p {
 
     height: 200px;
     width: 100%;
-    margin-bottom: 3em;
-    display: table;
+    margin-bottom: 0em;
+     display: table;
 }
 
     .banner-head {
+      font-family: 'Oswald', sans-serif;
         display: table-cell;
         vertical-align: middle;
         margin-bottom: 0;
-        font-size: 2em;
+        font-size: 3em;
         color: white;
         font-weight: 500;
-        text-shadow: 0 1px 1px black;
+        text-shadow: 1px 1px 1px black;
     }
 
 
 
 /*
- * -- PRICING TABLE WRAPPER --
- * This element wraps up all the pricing table elements
+ * -- format TABLE WRAPPER --
+ * This element wraps up all the format table elements
  */
- .pricing-tables,
+ .format-tables,
  .information {
     max-width: 980px;
     margin: 0 auto;
  }
-.pricing-tables {
+.format-tables {
     margin-bottom: 3.125em;
     text-align: center;
 }
 
 /*
- * -- PRICING TABLE  --
- * Every pricing table has the .pricing-table class
+ * -- format TABLE  --
+ * Every format table has the .format-table class
  */
-.pricing-table {
+.format-table {
     border: 1px solid #ddd;
     margin: 0 0.5em 2em;
     padding: 0 0 0;
 }
 
 /*
- * -- PRICING TABLE HEADER COLORS --
- * Choose a different color based on the type of pricing table.
+ * -- format TABLE HEADER COLORS --
+ * Choose a different color based on the type of format table.
  */
-.pricing-table-1 .pricing-table-header {
+.format-table-1 .format-table-header {
     background: #519251;
 }
 
-.pricing-table-2 .pricing-table-header {
+.format-table-2 .format-table-header {
     background: #2c4985;
 }
 
-.pricing-table-3 .pricing-table-header {
+.format-table-3 .format-table-header {
     background: #2c4985;
 }
 
-.pricing-table-4 .pricing-table-header {
+.format-table-4 .format-table-header {
     background: #2c4985;
 }
 
-.pricing-table-5 .pricing-table-header {
+.format-table-5 .format-table-header {
     background: #2c4985;
 }
 
-.pricing-table-6 .pricing-table-header {
+.format-table-6 .format-table-header {
     background: #2c4985;
 }
 
 /*
- * -- PRICING TABLE HEADER --
+ * -- format TABLE HEADER --
  * By default, a header is black/white, and has some styles for its <h2> name.
  */
-.pricing-table-header {
+.format-table-header {
     background: #111;
     color: #fff;
 }
-    .pricing-table-header h2 {
+    .format-table-header h2 {
         margin: 0;
         padding-top: 2em;
         font-size: 1em;
@@ -138,15 +139,15 @@ p {
 
 
 /*
- * -- PRICING TABLE PRICE --
+ * -- format TABLE PRICE --
  * Styles for the price and the corresponding <span>per month</span>
  */
-.pricing-table-price {
+.format-table-price {
     font-size: 6em;
     margin: 0.2em 0 0;
     font-weight: 100;
 }
-    .pricing-table-price span {
+    .format-table-price span {
         display: block;
         text-transform: uppercase;
         font-size: 0.2em;
@@ -159,10 +160,10 @@ p {
 
 
 /*
- * -- PRICING TABLE LIST --
- * Each pricing table has a <ul> which is denoted by the .pricing-table-list class
+ * -- format TABLE LIST --
+ * Each format table has a <ul> which is denoted by the .format-table-list class
  */
-.pricing-table-list {
+.format-table-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -171,10 +172,10 @@ p {
 
 
 /*
- * -- PRICING TABLE LIST ELEMENTS --
- * Styles for the individual list elements within each pricing table
+ * -- format TABLE LIST ELEMENTS --
+ * Styles for the individual list elements within each format table
  */
-.pricing-table-list li {
+.format-table-list li {
     padding: 0.8em 0;
     background: #f7f7f7;
     border-bottom: 1px solid #e7e7e7;
@@ -182,8 +183,8 @@ p {
 
 
 /*
- * -- PRICING TABLE BUTTON --
- * Styles for the "Choose" button at the bottom of a pricing table.
+ * -- format TABLE BUTTON --
+ * Styles for the "Choose" button at the bottom of a format table.
  * This inherits from Pure Button.
  */
 .button-choose {
@@ -215,14 +216,14 @@ p {
 /*
  * -- TABLET MEDIA QUERIES --
  * On tablets, we want to slightly adjust the size of the banner
- * text and add some vertical space between the various pricing tables
+ * text and add some vertical space between the various format tables
  */
 @media(min-width: 767px) {
 
     .banner-head {
         font-size: 4em;
     }
-    .pricing-table {
+    .format-table {
         margin-bottom: 0;
     }
 
@@ -243,8 +244,39 @@ p {
 
 
 .explain {
-    background-color: #fff;
-    width: 100%;
     margin-bottom: 3em;
-    display: table;
+    margin-top: 2em;
+}
+
+.explain ul{
+  padding: 0;
+  list-style-type: none;
+  margin:0px;
+}
+
+.explain li{
+    list-style-type: none;
+    margin:0px;
+    padding:1em;
+    border-bottom-style: solid;
+    letter-spacing:0;
+    text-align:left;
+}
+
+.explain .first{
+    border-top-style: solid;
+}
+
+.tabla {
+letter-spacing:0
+}
+
+.l-box {
+    padding: 1em;
+}
+
+.pure-g > div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
