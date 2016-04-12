@@ -280,3 +280,10 @@ letter-spacing:0
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.datos_bas a{
+font-size: 26px;
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+color:black;
+}
