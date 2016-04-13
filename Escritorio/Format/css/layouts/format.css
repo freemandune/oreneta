@@ -259,13 +259,9 @@ p {
     margin:0px;
     padding:1em;
     border-bottom-style: solid;
-    border-color: #A0A0A0;
+    border-color: #172b5a;
     letter-spacing:0;
     text-align:left;
-}
-
-.explain .first{
-    border-top-style: solid;
 }
 
 .tabla {
@@ -303,3 +299,13 @@ color:#fff;
 font-family: sans-serif;
 font-size:14px;
 }
+
+.head1{
+    background: #2c4985;
+    border:0;
+    color:white;
+  }
+
+  b {
+color:#172b5a;
+  }
