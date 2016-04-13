@@ -297,3 +297,9 @@ iframe {
     max-width: 100%;
     height: 400px;
 }
+.days_header{
+background: #543494;
+color:#fff;
+font-family: sans-serif;
+font-size:14px;
+}
