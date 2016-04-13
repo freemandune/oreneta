@@ -98,7 +98,7 @@ p {
  * Choose a different color based on the type of format table.
  */
 .format-table-1 .format-table-header {
-    background: #519251;
+    background: #543494;
 }
 
 .format-table-2 .format-table-header {
@@ -106,7 +106,7 @@ p {
 }
 
 .format-table-3 .format-table-header {
-    background: #2c4985;
+    background: #543494;
 }
 
 .format-table-4 .format-table-header {
@@ -114,7 +114,7 @@ p {
 }
 
 .format-table-5 .format-table-header {
-    background: #2c4985;
+    background: #543494;
 }
 
 .format-table-6 .format-table-header {
@@ -259,6 +259,7 @@ p {
     margin:0px;
     padding:1em;
     border-bottom-style: solid;
+    border-color: #A0A0A0;
     letter-spacing:0;
     text-align:left;
 }
@@ -286,4 +287,13 @@ font-size: 26px;
 font-family: 'Oswald', sans-serif;
 text-decoration: none;
 color:black;
+}
+
+.web_adr{
+font-size: 16px !important;
+}
+
+iframe {
+    max-width: 100%;
+    height: 400px;
 }
